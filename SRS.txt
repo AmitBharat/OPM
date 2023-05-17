@@ -1,0 +1,57 @@
+Software Requirement Specifications (SRS) for Online Project Management :-
+
+1. Introduction
+   1.1 Purpose
+   The purpose of this document is to provide a detailed description of the requirements for the Online Project Management. It outlines the functional and non-functional requirements, constraints, and interfaces of the system.
+
+   1.2 Scope
+   The Online Project Management is a web-based application that allows organizations to manage project information, track progress, handle data and generate reports. The system will provide an efficient and centralized solution for tasks.
+
+2. Functional Requirements
+   2.1 Project Information Management
+      - Administrators should be able to add, update, and delete records.
+      - Each record should include details such as name, ID, contact information, designation, and department.
+
+   2.2 Progress Tracking
+      - It should be able to mark their progress using a time tracking feature.
+      - The system should calculate the total  hours and maintain a record daily, weekly, and monthly 
+
+   2.3 Data Management
+      - The system should allow managers to review and approve/delete the data as per requirement.
+      - The system should maintain a record history.
+
+   2.4 Reports
+      - The system should generate reports on  relevant information.
+      - Reports may include project information, track progress, handle data etc.
+
+   2.5 Notifications and Reminders
+      - The system should send notifications and reminders to team for pending work, upcoming meetings, or other important events.
+      - Notifications can be delivered via email, SMS, or through the system's user interface.
+
+3. Non-functional Requirements
+   3.1 Security
+      - data should be securely stored and accessible only to authorized personnel.
+      - User authentication and access control mechanisms should be implemented.
+      - Sensitive information such as passwords should be stored using encryption.
+
+   3.2 Performance
+      - The system should handle concurrent user requests without significant performance degradation.
+      - The response time for retrieving records, generating reports, and processing requests should be minimal.
+
+   3.3 Usability
+      - The user interface should be intuitive and user-friendly.
+      - The system should provide clear and informative error messages.
+      - The system should support multiple languages if required.
+
+4. Constraints
+   - The Online Project Management will be developed using a web-based architecture.
+   - The system should be compatible with popular web browsers such as Chrome, Firefox, and Safari.
+   - The system should be responsive and accessible on different devices (desktops, tablets, mobile phones).
+
+5. Interfaces
+   - User Interface: The system will provide a web-based user interface for all team members to interact with.
+   - Database: The system will interact with a database to store and retrieve  project information, track progress, handle data
+
+6. Glossary
+   - SRS: Software Requirements Specification
+   - UI: User Interface

@@ -1,0 +1,13 @@
+Project Management
+
+Project:ID, name, detail, information, title, hours
+
+Team:  Team ID, name, stakeholder, manager
+
+Status:project ID, title, description, other possibly information.
+
+Duration:project ID, team ID, Alloted hours, Actual hours
+
+Schedule : ID, Team ID, date, Start date, end date
+
+Performance Review:  review ID, project ID, review date, reviewer's name, performance ratings
